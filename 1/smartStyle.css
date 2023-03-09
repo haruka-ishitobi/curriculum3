@@ -1,0 +1,45 @@
+@media screen and (max-width:479px) {
+    header{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+   .blank{ 
+        transform: rotate(-90deg) ;
+        margin-right :0px; 
+
+   }
+   
+   main{
+        width: 200px;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+
+   }
+
+   .left{
+    width: 200px;
+    height: 100px;
+   }
+   .right{
+    width: 200px;
+    height: 220px;
+
+   }
+   .items{
+    justify-content: space-between;
+    height: 180px;
+    width:140px ;
+    margin: 20px 30px 20px 30px;
+   }
+
+   footer{
+    width: 200px;
+   }
+
+}

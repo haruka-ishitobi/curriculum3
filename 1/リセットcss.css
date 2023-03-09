@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+
+
+
+    
+}
+
+
+header{
+	background-color: #141f40; 
+	height: 100px;
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+	
+
+}
+
+.blank{
+	height: 60px;
+	width: 160px;
+	background-color: white;
+	margin-right: 3%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+.item1{
+	background-color: #a9004b;
+	height: 40px;
+	width: 40px;
+	
+}
+.item2{
+	background-color: #a9004b;
+	height: 40px;
+	width: 40px;
+
+}
+.item3{
+	background-color: #a9004b;
+	height: 40px;
+	width: 40px;
+}
+
+main{
+
+	height: 250px;
+	display: flex;
+	
+}
+
+.left{
+	background-color: #80bfa8;
+	width: 150px;
+}
+
+.right{
+	width: 250px;
+	background-color: #8c2727;
+	
+}
+
+.items{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	width: 150px;
+	height: 180px;
+	margin: 40px 60px 40px 40px;
+}
+
+.item4{
+	background-color: #ff863f;
+	height: 40px;
+	width: 140px;
+	border: 5px solid white;
+	margin: auto;
+}
+
+.item5{
+	background-color: #ff863f;
+	height: 40px;
+	width: 140px;
+	border: 5px solid white;
+	margin: auto;
+}
+
+.item6{
+	background-color: #ff863f;
+	height: 40px;
+	width: 140px;
+	border: 5px solid white;
+	margin: auto;
+}
+
+
+footer{
+	background-color: #d98d30;
+	height: 100px;
+	width: 400px;
+}
